@@ -1,0 +1,30 @@
+nav a {
+	font-family: Georgia;
+	color: orange;
+}
+a.current {
+	color: black;
+	background: yellow;
+	font-variant-caps: all-small-caps;
+}
+a.skip {
+	position: relative;
+	left: -2000px;
+}
+a.skip:focus {
+	border: 1px solid black;
+	position: relative;
+	left: 0;
+}
+
+body header{
+	padding: 15px;
+}
+body main{
+	padding: 15px;
+}
+body main p{
+	height: auto;
+	width: 75%;
+	margin: 10px;
+}
